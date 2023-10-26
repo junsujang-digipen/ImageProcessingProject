@@ -1,2 +1,0 @@
-C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\x64\Debug\Project.exe
-C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\x64\Debug\Project.exe
