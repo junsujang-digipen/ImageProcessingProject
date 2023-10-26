@@ -1,0 +1,1 @@
+cmake --fresh -S ./Dependencies/glfw-3.3.8 -B ./Dependencies/glfw-3.3.8/build

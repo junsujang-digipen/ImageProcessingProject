@@ -1,0 +1,10 @@
+^C:\USERS\OWNER\DESKTOP\CS370_PP1_JANG_JUNSU1AS\SRC\DEPENDENCIES\GLFW-3.3.8\BUILD\CMAKEFILES\7A3366B946EB1386897A192873E7EBA2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Owner/Desktop/CS370_PP1_Jang_Junsu1as/src/Dependencies/glfw-3.3.8 -BC:/Users/Owner/Desktop/CS370_PP1_Jang_Junsu1as/src/Dependencies/glfw-3.3.8/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Owner/Desktop/CS370_PP1_Jang_Junsu1as/src/Dependencies/glfw-3.3.8/build/GLFW.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

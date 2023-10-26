@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\CMakeFiles\a77b7465225b57d22f10e4a939e6fe95\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{697A5CE7-52F1-3355-B847-C73CA99D6EBB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
