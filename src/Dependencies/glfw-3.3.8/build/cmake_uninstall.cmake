@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build/install_manifest.txt" files)
+file(READ "C:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

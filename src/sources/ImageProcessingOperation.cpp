@@ -1,6 +1,7 @@
-#include "ImageProcessing.h"
+#include "ImageProcessingOperation.h"
 #include <ppm_io/ppm_io.h>
 #include <iostream>
+#include "Common.h"
 
 void Resize(int currW, int currH, int targetW, int targetH, uint8_t* currBuffer, uint8_t* targetBuffer)
 {
@@ -43,6 +44,9 @@ ResizeOperation::ResizeOperation(std::filesystem::path p, std::vector<std::strin
 			std::cout << "unknown command" << std::endl;
 		}
 	}
+	if (_strcmpi(input.c_str(), "curr") == false) {
+		input = openedFile;
+	}
 }
 
 bool ResizeOperation::Operate()
@@ -72,6 +76,12 @@ AddOperation::AddOperation(std::filesystem::path p, std::vector<std::string> det
 		else {
 			std::cout << "unknown command" << std::endl;
 		}
+	}
+	if (_strcmpi(input1.c_str(), "curr") == false) {
+		input1 = openedFile;
+	}
+	if (_strcmpi(input2.c_str(), "curr") == false) {
+		input2 = openedFile;
 	}
 }
 
@@ -117,6 +127,12 @@ SubOperation::SubOperation(std::filesystem::path p, std::vector<std::string> det
 			std::cout << "unknown command" << std::endl;
 		}
 	}
+	if (_strcmpi(input1.c_str(), "curr") == false) {
+		input1 = openedFile;
+	}
+	if (_strcmpi(input2.c_str(), "curr") == false) {
+		input2 = openedFile;
+	}
 }
 
 bool SubOperation::Operate()
@@ -158,6 +174,12 @@ MulOperation::MulOperation(std::filesystem::path p, std::vector<std::string> det
 		else {
 			std::cout << "unknown command" << std::endl;
 		}
+	}
+	if (_strcmpi(input1.c_str(), "curr") == false) {
+		input1 = openedFile;
+	}
+	if (_strcmpi(input2.c_str(), "curr") == false) {
+		input2 = openedFile;
 	}
 }
 
@@ -201,6 +223,10 @@ InvOperation::InvOperation(std::filesystem::path p, std::vector<std::string> det
 			std::cout << "unknown command" << std::endl;
 		}
 	}
+	if (_strcmpi(input.c_str(), "curr") == false) {
+		input = openedFile;
+	}
+
 }
 
 bool InvOperation::Operate()
@@ -243,6 +269,9 @@ LogOperation::LogOperation(std::filesystem::path p, std::vector<std::string> det
 		else {
 			std::cout << "unknown command" << std::endl;
 		}
+	}
+	if (_strcmpi(input.c_str(), "curr") == false) {
+		input = openedFile;
 	}
 }
 
@@ -288,6 +317,9 @@ PowOperation::PowOperation(std::filesystem::path p, std::vector<std::string> det
 			std::cout << "unknown command" << std::endl;
 		}
 	}
+	if (_strcmpi(input.c_str(), "curr") == false) {
+		input = openedFile;
+	}
 }
 
 bool PowOperation::Operate()
@@ -331,6 +363,9 @@ CCLOperation::CCLOperation(std::filesystem::path p, std::vector<std::string> det
 		else {
 			std::cout << "unknown command" << std::endl;
 		}
+	}
+	if (_strcmpi(input.c_str(), "curr") == false) {
+		input = openedFile;
 	}
 }
 

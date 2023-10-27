@@ -14,7 +14,10 @@
 #include <vector>
 #include <string>
 
-#include "ImageProcessing.h"
+#include "ImageProcessingOperation.h"
+#include "HistogramEqualization.h"
+#include "HistogramMatching.h"
+#include "Common.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
@@ -26,19 +29,14 @@ int main(int argc, char* argv[]) {
     std::string saveFilePath{};
     std::mutex mtx;
     std::thread OperationWindow{ [&]()->void {
+        std::vector<std::string> menus{"add","sub", "mul", "inv", "log", "pow",
+                                       "histeq", "histmatch", "resize","load", "save", "end"};
     while (true) {
         std::cout << "-----------------------------------------" << std::endl;
         std::cout << "Menu" << std::endl;
-        std::cout << "1. add" << std::endl;
-        std::cout << "2. sub" << std::endl;
-        std::cout << "3. mul" << std::endl;
-        std::cout << "4. inv" << std::endl;
-        std::cout << "5. log" << std::endl;
-        std::cout << "6. pow" << std::endl;
-        std::cout << "7. resize" << std::endl;
-        std::cout << "8. load" << std::endl;
-        std::cout << "9. save" << std::endl;
-        std::cout << "10. end" << std::endl;
+        for (int m = 0; m < menus.size();++m) {
+            std::cout <<m+1<< ". "<< menus[m] << std::endl;
+        }
         std::cout << "-----------------------------------------" << std::endl;
 
         std::string command{};
@@ -81,6 +79,14 @@ int main(int argc, char* argv[]) {
             operation = new PowOperation{ currPath,details };
             isSuccess = operation->Operate();
         }
+        else if (_strcmpi(command.c_str(), "histmatch") == false) {
+            operation = new HistogramMatching{ currPath,details };
+            isSuccess = operation->Operate();
+        }
+        else if (_strcmpi(command.c_str(), "histeq") == false) {
+            operation = new HistogramEqualization{ currPath,details };
+            isSuccess = operation->Operate();
+        }
         else if (_strcmpi(command.c_str(), "load") == false) {
             operation = new Operation{currPath};
             operation->output = details[0];
@@ -116,7 +122,7 @@ int main(int argc, char* argv[]) {
     }
     } };
 
-    PPM file("");
+    PPM file(openedFile);
     //PPM file("output.ppm");
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
@@ -266,6 +272,8 @@ int main(int argc, char* argv[]) {
 
         if (openFilePath.empty() == false) {
             file = PPM(openFilePath);
+            file.write(openedFile);
+
             glBindTexture(GL_TEXTURE_2D, texture);
             glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, file.getW(), file.getH(), 0, GL_RGB, GL_UNSIGNED_BYTE, file.getImageHandler());
             glGenerateMipmap(GL_TEXTURE_2D);

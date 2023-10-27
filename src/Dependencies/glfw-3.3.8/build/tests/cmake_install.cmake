@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/tests
+# Install script for directory: C:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6CF3ACB8-95E8-3804-9AB9-1EA6A2188C43}</ProjectGuid>
+    <ProjectGuid>{01DB6FFF-6305-3027-B4E9-05EC3627CB2B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -105,10 +105,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\CMakeFiles\84c258c45af2dd87d31872fe2734fa1d\docs.rule">
+    <CustomBuild Include="C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\CMakeFiles\712f85be8960c50be9e9dc2380e38cfe\docs.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating HTML documentation</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs
+cd C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
@@ -121,12 +121,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\docs</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\docs</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating HTML documentation</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs
+cd C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
@@ -139,12 +139,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\docs</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\docs</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating HTML documentation</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs
+cd C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
@@ -157,12 +157,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\docs</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\docs</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating HTML documentation</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs
+cd C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
@@ -175,17 +175,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\docs</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\docs</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\docs\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\docs\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/docs/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/docs/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8 -BC:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build --check-stamp-file C:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build/docs/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8 -BC:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build --check-stamp-file C:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build/docs/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -193,12 +193,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\docs\Doxyfile.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\docs\Doxyfile.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/docs/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/docs/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8 -BC:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build --check-stamp-file C:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build/docs/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8 -BC:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build --check-stamp-file C:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build/docs/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -206,12 +206,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\docs\Doxyfile.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\docs\Doxyfile.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/docs/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/docs/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8 -BC:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build --check-stamp-file C:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build/docs/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8 -BC:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build --check-stamp-file C:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build/docs/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -219,12 +219,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\docs\Doxyfile.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\docs\Doxyfile.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/docs/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/docs/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8 -BC:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build --check-stamp-file C:/Users/Owner/Desktop/CS370_projectas/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build/docs/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8 -BC:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build --check-stamp-file C:/Users/Owner/Desktop/CS370_project/ImageProcessingProject/src/Dependencies/glfw-3.3.8/build/docs/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -232,18 +232,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\docs\Doxyfile.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\docs\Doxyfile.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\docs">
+    <None Include="C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\docs">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\ZERO_CHECK.vcxproj">
-      <Project>{797562C6-ECAE-3962-8314-3C986A80135E}</Project>
+    <ProjectReference Include="C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\ZERO_CHECK.vcxproj">
+      <Project>{82151FC2-B515-35D7-875F-6FAB62F92158}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sources\ImageProcessing.cpp">
+    <ClCompile Include="sources\ImageProcessingOperation.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="sources\main.cpp">
@@ -27,15 +27,36 @@
     <ClCompile Include="Dependencies\glad\src\glad.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="sources\HistogramEqualization.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\IntensityAnalysis.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\HistogramMatching.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="sources\ImageProcessing.h">
+    <ClInclude Include="sources\ImageProcessingOperation.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Dependencies\ppm_io\ppm_io.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Dependencies\stb_image\stb_image.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\IntensityAnalysis.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\HistogramEqualization.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Common.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\HistogramMatching.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\CMakeFiles\84c258c45af2dd87d31872fe2734fa1d\docs.rule">
+    <CustomBuild Include="C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\CMakeFiles\712f85be8960c50be9e9dc2380e38cfe\docs.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\docs\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\docs\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Owner\Desktop\CS370_projectas\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\docs" />
+    <None Include="C:\Users\Owner\Desktop\CS370_project\ImageProcessingProject\src\Dependencies\glfw-3.3.8\build\docs\CMakeFiles\docs" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{697A5CE7-52F1-3355-B847-C73CA99D6EBB}</UniqueIdentifier>
+      <UniqueIdentifier>{56FC269F-C502-3FE5-8287-7623948532D4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
