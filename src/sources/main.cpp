@@ -18,6 +18,9 @@
 #include "HistogramEqualization.h"
 #include "HistogramMatching.h"
 #include "Common.h"
+#include "Sobel.h"
+#include "GaussianSmoothing.h"
+#include "UnsharpMasking.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
@@ -30,7 +33,7 @@ int main(int argc, char* argv[]) {
     std::mutex mtx;
     std::thread OperationWindow{ [&]()->void {
         std::vector<std::string> menus{"add","sub", "mul", "inv", "log", "pow",
-                                       "histeq", "histmatch", "resize","load", "save", "end"};
+                                       "histeq", "histmatch","sobel","gblur","unshrpmask", "resize","load", "save", "end"};
     while (true) {
         std::cout << "-----------------------------------------" << std::endl;
         std::cout << "Menu" << std::endl;
@@ -85,6 +88,18 @@ int main(int argc, char* argv[]) {
         }
         else if (_strcmpi(command.c_str(), "histeq") == false) {
             operation = new HistogramEqualization{ currPath,details };
+            isSuccess = operation->Operate();
+        }
+        else if (_strcmpi(command.c_str(), "sobel") == false) {
+            operation = new SobelOperation{ currPath,details };
+            isSuccess = operation->Operate();
+        }
+        else if (_strcmpi(command.c_str(), "gblur") == false) {
+            operation = new GaussianSmoothing{ currPath,details };
+            isSuccess = operation->Operate();
+        }
+        else if (_strcmpi(command.c_str(), "unshrpmask") == false) {
+            operation = new UnsharpMasking{ currPath,details };
             isSuccess = operation->Operate();
         }
         else if (_strcmpi(command.c_str(), "load") == false) {

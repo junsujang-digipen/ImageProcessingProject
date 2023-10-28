@@ -150,20 +150,30 @@
   <ItemGroup>
     <ClCompile Include="Dependencies\glad\src\glad.c" />
     <ClCompile Include="Dependencies\ppm_io\ppm_io.cpp" />
+    <ClCompile Include="sources\Filter.cpp" />
+    <ClCompile Include="sources\GaussianSmoothing.cpp" />
     <ClCompile Include="sources\HistogramEqualization.cpp" />
     <ClCompile Include="sources\HistogramMatching.cpp" />
     <ClCompile Include="sources\ImageProcessingOperation.cpp" />
     <ClCompile Include="sources\IntensityAnalysis.cpp" />
     <ClCompile Include="sources\main.cpp" />
+    <ClCompile Include="sources\Sobel.cpp" />
+    <ClCompile Include="sources\SpatialFilteringOperation.cpp" />
+    <ClCompile Include="sources\UnsharpMasking.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dependencies\ppm_io\ppm_io.h" />
     <ClInclude Include="Dependencies\stb_image\stb_image.h" />
     <ClInclude Include="sources\Common.h" />
+    <ClInclude Include="sources\Filter.h" />
+    <ClInclude Include="sources\GaussianSmoothing.h" />
     <ClInclude Include="sources\HistogramEqualization.h" />
     <ClInclude Include="sources\HistogramMatching.h" />
     <ClInclude Include="sources\ImageProcessingOperation.h" />
     <ClInclude Include="sources\IntensityAnalysis.h" />
+    <ClInclude Include="sources\Sobel.h" />
+    <ClInclude Include="sources\SpatialFilteringOperation.h" />
+    <ClInclude Include="sources\UnsharpMasking.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

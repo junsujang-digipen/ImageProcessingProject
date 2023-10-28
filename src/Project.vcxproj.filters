@@ -36,6 +36,21 @@
     <ClCompile Include="sources\HistogramMatching.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="sources\SpatialFilteringOperation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Filter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Sobel.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\GaussianSmoothing.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\UnsharpMasking.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sources\ImageProcessingOperation.h">
@@ -57,6 +72,21 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="sources\HistogramMatching.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\SpatialFilteringOperation.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Filter.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Sobel.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\GaussianSmoothing.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\UnsharpMasking.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
